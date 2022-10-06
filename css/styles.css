@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.forFlex{
+	display:flex;
+}
+.header1{
+	padding:0 0 3px 0;
+}
+.bgcolor{
+	background-color:#f5f5f5;
+}
+.spaceBetween{
+	justify-content:space-between;
+}
+.header1Left{
+	width:150px;
+	margin: 10px 10px 0 0;
+	font-size:12px;
+	margin-right: 60px;
+}
+.border{
+	border-right: 2px solid grey;
+	padding:0 8px 0 0;
+	height:13px;
+}
+.headerImg img{
+	width:20px;
+	margin: 10px 0 0 47px;	
+}
+.header2Img img{
+	width:56px;
+	margin: 0px 0px 0 40px;
+}
+.header2Icon1 img{
+	width:25px;
+}
+.header2Icon2 img{
+	width:25px;
+}
+.header2Middle{
+	width:380px;
+	margin:0 30px 0 0;
+}
+.searchbar img{
+	width:25px;
+}
+.header2{
+	padding:15px 0 15px 0;
+}
+.header3{
+	padding:30px;
+}
+
+/* main body starts */
+
+
+.video1{
+	width:1255px;
+}
+
+.forCenter{
+	justify-content: center;
+}
+.content{
+	margin:55px 0 0 0;
+}
+.content2{
+	font-size:50px;
+	font-weight:800;
+}
+.content3{
+	margin:17px 0 0 0;
+}
+.content4{
+	margin:40px 0 0 0;
+}
+.content4Button{
+	width:100px;
+	font-size:16px;
+	border-radius:50px;
+	color: white;
+	background: black;
+	padding:7px;
+}
+.runningGearHead2 img{
+	width:410px;
+}
+.runningGearHead{
+	margin:100px 50px 0 50px;
+}
+.img1{
+	position:relative;
+}
+.shopButton{
+	position:absolute;
+	bottom:50px;
+	left:50px;
+		
+}

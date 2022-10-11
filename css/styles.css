@@ -259,6 +259,9 @@ select{
 .center{
 	justify-content:center;
 }
+.alignCenter{
+	align-items:center;
+}
 
 .details1{
 	padding:10px;
@@ -293,11 +296,85 @@ input{
 .nikeFormContent{
 	margin-top:20px;
 }
-button{
+.submiting{
 	width:375px;
 	padding:5px 40px 20px 5px;
 	background-color:black;
 	border-radius:3px;
 	color:white;
 	margin:30px 0 0 0;
+}
+.details3{
+	padding:10px;
+	width:150px;
+	margin-top:20px;
+	border: 1px solid #e8e8e8;
+}
+.margin{
+	margin-left:18px;
+}
+.productView{
+	width:375px;
+	padding:5px;
+}
+.prdctImg{
+	margin:90px 0 0 37px;
+}
+.subprdcts{
+	width:75px;
+}
+.ukSize{
+	width: 134px;
+	background-color: transparent;
+	color: black;
+	border-radius: 5px;
+	padding:15px;
+	margin:5px 0 0 0;
+	border:1px solid #e0e0d1;
+}
+.heart{
+	width:20px;
+}
+.whishlistSelect{
+	width: 409px;
+	padding: 20px;
+	border-radius: 35px;
+}
+.bgcolorDark{
+	background-color:black;
+	color:white;
+}
+.bgcolorLight{
+	background-color: transparent;
+}
+.starRating{
+	width:120px;
+}
+.prdctDetails{
+	margin:93px 0 0 80px;
+}
+.marginTopExtraSmall{
+	margin:5px 0 0 0;
+}
+.marginTopSmall{
+	margin:20px 0 0 0;
+}
+.marginTopMedium{
+	margin:50px 0 0 0;
+}
+.marginTopLarge{
+	margin:80px 0 0 0;
+}
+.review{
+	border-top:1px solid #e0e0d1;
+	padding:30px;
+	font-size:22px;
+}
+.productMainImg{
+	margin:50px 0 0 47px;
+	width:1250px;
+}
+.productMainImg1{
+	width:1250px;
+	margin:150px 0 0 47px;
 }

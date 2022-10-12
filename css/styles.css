@@ -77,6 +77,9 @@ body{
 .fontSizeSmall{
 	font-size:20px;
 }
+.fontSizeExtraSmall{
+	font-size:12px;
+}
 .fontSizeLarge{
 	font-size:85px;
 }
@@ -378,3 +381,92 @@ input{
 	width:1250px;
 	margin:150px 0 0 47px;
 }
+.subHeaderMargin{
+	margin:0 50px 0 47px;
+}
+.buttonIcon{
+	width: 40px;
+	border-radius: 20px;
+	padding: 10px 0 10px 0;
+	border:none;
+}
+.likeImages{
+	width:400px;
+}
+.marginLeft{
+	margin:0 0 0 47px;
+}
+
+.marginLeftShort{
+	margin:0 0 0 10px;
+}
+.productDetails{
+	background-color:#f5f5f5;
+	padding:15px 15px 10px 15px;	
+}
+.productDetails img{
+	width:20px;
+}
+.productDetails{
+	width:685px;
+}
+.selectedImg{
+	width:150px;
+}
+.detailsContent{
+	width:535px;
+	margin:5px 0 0 25px;
+}
+.sizeAndQuantity{
+	width:120px;
+}
+.icons{
+	width:25px;
+}
+.productFullDetails{
+	border-bottom: 2px solid #f5f5f5;
+	margin: 0 0 30px 0;
+}
+.questionImg{
+	width:12px;
+	margin-left:5px;
+}
+.rateSub{
+	margin:30px 0 0 0;
+	padding: 0 0 15px 0;
+	border-bottom: 2px solid #f5f5f5;
+	width:340px;
+}
+.cartButton{
+	width: 333px;
+	border: none;
+	font-size: 16px;
+	border-radius: 50px;
+	color: white;
+	background: black;
+	padding: 20px;
+	margin: 10px 0 0 0;
+}
+.productDetail{
+	margin:0 0 0 30px;
+}
+.productCart{
+	margin:50px 0 0 140px;
+}
+.storeSubHeading{
+	margin:80px 0 0 140px;
+}
+.storeSubHeaderMargin{
+	margin:80px 0 0 47px;
+}
+.otherChoises{
+	overflow-x: scroll;
+}
+.paddingRight{
+	padding:0 5px 0 0;
+}
+
+
+/*check out*/
+
+

@@ -86,6 +86,9 @@ body{
 .fontSizeMedium{
 	font-size:25px;
 }
+.fontSizeMedium1{
+	font-size:32px;
+}
 .content3{
 	margin:17px 0 0 0;
 }
@@ -362,11 +365,17 @@ input{
 .marginTopSmall{
 	margin:20px 0 0 0;
 }
+.marginTopMedium1{
+	margin:30px 0 0 0;
+}
 .marginTopMedium{
 	margin:50px 0 0 0;
 }
 .marginTopLarge{
 	margin:80px 0 0 0;
+}
+.marginTopExtraLarge{
+	margin:120px 0 0 0;
 }
 .review{
 	border-top:1px solid #e0e0d1;
@@ -467,6 +476,92 @@ input{
 }
 
 
-/*check out*/
+/*Help Page*/
+
+.helpSearchbar img{
+	width:22px;
+}
+.helpSearchbar{
+	width:380px;
+	border:1px solid grey;
+	padding:18px 10px 20px 18px;
+	border-radius:10px;	
+}
+.marginLeftRightHigh{
+	margin:0 140px 0 140px;
+}
+.subHeadHelp{
+	padding:0 0 15px 0;
+	border-bottom: 1px solid #ebe5e5;
+}
+.helpInfo {
+    width: 360px;
+}
+.helpImg{
+	width:50px;
+}
+.helpStore{
+	width:350px;
+}
 
 
+/*checkout page*/
+
+
+.checkoutHeaderImg1 {
+    width: 65px;
+    padding: 10px 0 10px 0;
+}
+.checkoutHeaderImg2{
+	width:25px;
+}
+.checkoutHeaderImg3{
+	width:20px;
+}
+.checkoutHeaderLeft {
+	width: 160px;
+	display: flex;
+	justify-content: center;
+}
+.checkoutHeader {
+	padding:10px 0 0 0;
+}
+.checkoutHeaderRight {
+    width: 305px;
+    padding: 17px 70px 0 0;
+}
+.checkoutPara {
+    width: 430px;
+}
+.delivery {
+    border: 2px solid black;
+    width: 425px;
+    padding: 25px 0 25px 0;
+    border: rad;
+    border-radius: 10px;
+}
+.checkoutHeaderImg4 {
+    width: 20px;
+    padding: 0 0 0 15px;
+}
+.checkoutButton {
+    padding: 12px 22px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid #cccccc;
+}
+.inputCheckout {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    width: 370px;
+    border-radius: 5px;
+}
+.inputCheckout1 {
+    padding: 15px;
+    border: 1px solid #cccccc;
+    width: 170px;
+    border-radius: 5px;
+}
+.checkoutMainbody1 {
+    margin: 100px 0 0 220px;
+}

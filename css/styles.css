@@ -61,6 +61,7 @@ body{
 	padding:30px;
 }
 
+
 /* main body starts */
 
 
@@ -187,6 +188,14 @@ body{
 	background-color:black;
 	color:white;
 }
+.footerImg{
+	width:25px;
+	padding: 0 5px;
+}
+.footerImgMargin {
+    margin: 0 50px 0 0;
+	
+}
 
 /* LISTING STARTS */	
 
@@ -209,6 +218,8 @@ body{
 
 /*  layouts  */
 
+
+
 .listHead{
 	margin:70px 0 0 47px;
 }
@@ -228,7 +239,7 @@ select{
  	margin-right: 51px
 }
 .sidebar{
-	width:15%;
+	width:17%;
 	margin:30px 0 0 50px;
 	overflow: auto;
 	height: 700px;
@@ -249,9 +260,37 @@ select{
 .products img{
 	width:320px;
 }
+.products {
+    padding: 0px 15px 0px 0px;
+}
 .productslist{
-	width:85%;
-	margin:35px 55px 0 80px;
+	margin: 36px 40px 0 35px;
+}
+.productslist1{
+	margin: 36px 40px 0 35px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid grey;
+	
+}
+.mainbodyListing {
+	width: 85%;
+}
+.listingPageMargin{
+	margin: 40px 0 0 37px
+}
+.listingButton{
+	padding: 6px 10px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid #cccccc;
+   margin: 5px 5px 0 0;
+}
+.relatedImg{
+	width: 330px;
+}
+.relatedStories{
+	overflow-x: scroll;
+	width: 1044px;
 }
 
 /* sign in*/
@@ -564,4 +603,29 @@ input{
 }
 .checkoutMainbody1 {
     margin: 100px 0 0 220px;
+}
+.selectedImg{
+	width:200px;
+}
+.checkoutDetail {
+	width: 100px;
+	margin: 10px 0 0 25px;
+}
+.checkoutMainbody2 {
+	margin: 100px 0px 0 145px
+}
+.checkoutCheckbox{
+	font-size: 11px;
+	width: 396px;
+}
+.checkoutButton1{
+	padding: 20px 175px;
+	border-radius: 25px;
+	background-color: #cccccc;
+	border: 1px solid #cccccc;
+}
+.paymentDetail {
+    border-top: 2px solid #f5f5f5;
+    margin: 25px 0 0 0;
+    padding: 20px;
 }

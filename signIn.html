@@ -1,80 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-      <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="css/styles.css">
-            <title> Log in </title>
-      </head>
-      <body>
-            <!--header starts-->
-			<div class="header">
-				<div class="header1 forFlex bgcolor spaceBetween">
-					<div class="headerImg">
-						<img src="assets/header1.png" alt="jordanIcon">
-					</div>
-					<div class="header1Left forFlex spaceBetween">
-						<span class="border">Help</span>
- 						<span class="border">Join Us</span>
- 						<span>SignIn</span>
-					</div>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+		<title> Log in </title>
+	</head>
+	<body>
+		<!--header starts-->
+		<div class="header">
+			<div class="header1 forFlex bgcolor spaceBetween">
+				<div class="headerImg">
+					<img src="assets/header1.png" alt="jordanIcon">
 				</div>
-				<div class="header2 forFlex spaceBetween">
-					<div class="header2Img">
-						<img src="assets/header2.png" alt="jordanIcon">
-					</div>
-					<div class="header2Middle forFlex spaceBetween">
-						<div><a href="listing.html">Men</a></div>
- 						<div>Women</div>
- 						<div>Kids</div>
-						<div>customise</div>
- 						<div>Sale</div>
- 						<div>SNKRS</div>
-					</div>
-					<div class="header2right forFlex spaceBetween">
-						<div class="searchbar forFlex bgcolor">
-							<img src="assets/header3.png" alt="search">
-							<input type="text" placeholder="Search" >
-						</div>
-						<div class="header2Icon1">
-							<img src="assets/header4.png" alt="favorite">
-						</div>
-						<div class="header2Icon2">
-							<img src="assets/header5.png" alt="cart">
-						</div>
-					</div>
+				<div class="header1Left forFlex spaceBetween">
+					<span class="border">
+						<a href="help.html">Help</a>
+					</span>
+					<span class="border">
+						<a href="joinUs.html">Join Us</a>
+					</span>
+					<span>
+						<a href="signIn.html">SignIn</a>
+					</span>
 				</div>
-				
 			</div>
+			<div class="header2 forFlex spaceBetween">
+				<div class="header2Img">
+					<img src="assets/header2.png" alt="jordanIcon">
+				</div>
+				<div class="header2Middle forFlex spaceBetween">
+					<div>
+						<a href="listing.html">Men</a>
+					</div>
+					<div>Women</div>
+					<div>Kids</div>
+					<div>customise</div>
+					<div>Sale</div>
+					<div>SNKRS</div>
+				</div>
+				<div class="header2right forFlex spaceBetween">
+					<div class="searchbar forFlex bgcolor">
+						<img src="assets/header3.png" alt="search">
+						<input type="text" placeholder="Search">
+					</div>
+					<div class="header2Icon1">
+						<img src="assets/header4.png" alt="favorite">
+					</div>
+					<div class="header2Icon2">
+						<a href="nikeStoreBag.html">
+							<img src="assets/header5.png" alt="cart">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--header ends-->
 		<!--body starts-->
 		<div class="forFlex center">
-		<div class="container  center">
-			<div class="nikeimg forFlex center"><img src="assets/header2.png" alt="nikelogo"></div>
-			<div class="formHeader1 forFlex center"><b>YOUR ACCOUNT FOR</b> </div>
-			<div class="formHeader2 forFlex center"><b>EVERYTHING NIKE</b></div>
-			<form id="form" action="/">
-					<input type="email" id="email" name="email" class="details1 colorlight" value="Email address">
-					<div><input type="password" id="password" name="password" class="details2 colorlight" value="password"></div>
-				
-				<div class="signinDetail forFlex spaceBetween fontsizeSmall colorlight">
-					<div>
-					 <input type="checkbox">
-					  <label > keep me signed in</label>
-					</div>
-			                  <span>Forgotten Your Password ?</span>
+			<div class="container  center">
+				<div class="nikeimg forFlex center">
+					<img src="assets/header2.png" alt="nikelogo">
 				</div>
-				<div class="nikeFormContent fontsizeSmall forFlex center colorlight"> By logging in,you agree to Nike's <u>Privacy Policy</u> and </div>
-				<div class="forFlex forFlex center fontsizeSmall colorlight"><u>Terms of Use</u></div>
-				
-				<button class="submiting">SIGN IN</button>
-				
-				<div class="nikeFormContent forFlex center fontsizeSmall colorlight">Not a MEMBER? <a href="joinUs.html">Join Us</a></div>
-								
-			</form>
-		</div>
+				<div class="formHeader1 forFlex center">
+					<b>YOUR ACCOUNT FOR</b>
+				</div>
+				<div class="formHeader2 forFlex center">
+					<b>EVERYTHING NIKE</b>
+				</div>
+				<form id="form" action="/">
+					<input type="email" id="email" name="email" class="details1 colorlight" placeholder="Email address">
+					<div>
+						<input type="password" id="password" name="password" class="details2 colorlight" placeholder="Password">
+					</div>
+					<div class="signinDetail forFlex spaceBetween fontsizeSmall colorlight">
+						<div>
+							<input type="checkbox">
+							<label> keep me signed in</label>
+						</div>
+						<span>Forgotten Your Password ?</span>
+					</div>
+					<div class="nikeFormContent fontsizeSmall forFlex center colorlight"> By logging in,you agree to Nike's <u>Privacy Policy</u> and </div>
+					<div class="forFlex forFlex center fontsizeSmall colorlight">
+						<u>Terms of Use</u>
+					</div>
+					<button class="submiting">SIGN IN</button>
+					<div class="nikeFormContent forFlex center fontsizeSmall colorlight">Not a MEMBER? <a href="joinUs.html">Join Us</a>
+					</div>
+				</form>
+			</div>
 		</div>
 		<!--body ends-->
+		<div class="footerBody">
+			<div class="footerHeader forFlex spaceBetween">
+				<div class="mainHeaderFooter forFlex">
+					<div class="footerHeader1">
+						<h4 class="fontSizeExtraSmall">FIND A STORE</h4>
+						<h4 class="fontSizeExtraSmall marginTopSmall">BECOME A MEMBER</h4>
+						<h4 class="fontSizeExtraSmall marginTopSmall">SIGN UP FOR EMAIL</h4>
+						<h4 class="fontSizeExtraSmall marginTopSmall">SEND US FEEDBACK</h4>
+						<h4 class="fontSizeExtraSmall marginTopSmall">STUDENT DISCOUNTS</h4>
+					</div>
+					<div class="footerHeader2">
+						<h4 class="fontSizeExtraSmall">GET HELP </ /h4>
+							<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Order Status</h4>
+							<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Delivery</h4>
+							<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Returns</h4>
+							<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Payment Options</h4>
+							<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Contact Us Nike.com Inquiries</h4>
+							<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Contact Us On All Other Inquiries</h4>
+					</div>
+					<div class="footerHeader3">
+						<h4 class="fontSizeExtraSmall">ABOUT NIKE</h4>
+						<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">News</h4>
+						<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Careers</h4>
+						<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Investors</h4>
+						<h4 class="fontSizeExtraSmall marginTopSmall colorLightFooter">Sustainability</h4>
+					</div>
+				</div>
+				<div class="footerImgMargin">
+					<img src="assets/facebook.png" alt="" class="footerImg">
+					<img src="assets/twitter.png" alt="" class="footerImg">
+					<img src="assets/youtube.png" alt="" class="footerImg">
+					<img src="assets/instagram.png" alt="" class="footerImg">
+				</div>
+			</div>
+			<div class="forFlex spaceBetween marginTopExtraSmall">
+				<div class="forFlex spaceBetween footerEnd1">
+					<img src="assets/map.png" alt="location" class="map">
+					<h4 class="fontSizeExtraSmall">India </h4>
+					<h4 class="fontSizeExtraSmall colorLightFooter">@2022 Nike,Inc.All Rights Reserved</h4>
+				</div>
+				<div class="forFlex spaceBetween footerEnd2">
+					<h4 class="fontSizeExtraSmall colorLightFooter">Guides</h4>
+					<h4 class="fontSizeExtraSmall colorLightFooter">Terms of Sale</h4>
+					<h4 class="fontSizeExtraSmall colorLightFooter">Terms of Use</h4>
+					<h4 class="fontSizeExtraSmall colorLightFooter">Nike Privacy Policy</h4>
+				</div>
+			</div>
+		</div>
+		</footer>
+		<!--footer ends-->
 	</body>
 </html>

@@ -1,122 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-      <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="css/styles.css">
-            <title> check out</title>
-      </head>
-      <body>
-            <!--header starts-->
-			<div class="checkoutHeader forFlex spaceBetween">
-				<div class="checkoutHeaderLeft">
-					<img src="assets/header2.png" alt="jordanIcon" class="checkoutHeaderImg1">
-				</div>
-					
-				<div class="checkoutHeaderRight forFlex spaceBetween">
-					<div>
-						<p>000 800 100 9538</p>
-					</div>
-					<div class="">
-						<img src="assets/message.png" alt="message" class="checkoutHeaderImg2">	
-					</div>
-					<div>
-						<img src="assets/bag.png" alt="bag" class="checkoutHeaderImg3">
-					</div>
-					<div>
-						<img src="assets/user.png" alt="user" class="checkoutHeaderImg3">
-					</div>
-				</div>		
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+		<title>Nike checkout</title>
+	</head>
+	<body>
+		<!--header starts-->
+		<div class="checkoutHeader forFlex spaceBetween">
+			<div class="checkoutHeaderLeft">
+				<img src="assets/header2.png" alt="jordanIcon" class="checkoutHeaderImg1">
 			</div>
+			<div class="checkoutHeaderRight forFlex spaceBetween">
+				<div>
+					<p>000 800 100 9538</p>
+				</div>
+				<div class="">
+					<img src="assets/message.png" alt="message" class="checkoutHeaderImg2">
+				</div>
+				<div>
+					<a href="nikeStoreBag.html">
+						<img src="assets/bag.png" alt="bag" class="checkoutHeaderImg3">
+					</a>
+				</div>
+				<div>
+					<img src="assets/user.png" alt="user" class="checkoutHeaderImg3">
+				</div>
+			</div>
+		</div>
 		<!--header ends-->
 		<!--main body starts-->
-	<div class="forFlex checkoutMainbody">
-		<div class="checkoutMainbody1">
-			<p class="fontMedium">How would you like to get your order?</p>
-
-			<div class="checkoutPara marginTopExtraSmall">
-				<p>Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. 
-				Our courier will contact you via SMS/email in due course to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for this order, future orders, and any product returns. <u>Learn More</u>
+		<div class="forFlex checkoutMainbody">
+			<div class="checkoutMainbody1">
+				<p class="fontMedium">How would you like to get your order?</p>
+				<div class="checkoutPara marginTopExtraSmall">
+					<p class="lightColor">Customs regulation for India require a copy of the recipient's KYC. The address on the KYC needs to match the shipping address. Our courier will contact you via SMS/email in due course to obtain a copy of your KYC. The KYC will be stored securely and used solely for the purpose of clearing customs (including sharing it with customs officials) for this order, future orders, and any product returns. <u>Learn More</u>
+					</p>
+				</div>
+				<div class="delivery forFlex marginTopMedium1">
+					<img src="assets/box.png" alt="box" class="checkoutHeaderImg4">
+					<p class="marginLeftShort">Deliver It</p>
+				</div>
+				<div class="marginTopMedium1">
+					<div>
+						<button class="checkoutButton">Become a member</button>
+					</div>
+					<div class="marginTopExtraSmall">
+						<button class="checkoutButton">Login</button>
+					</div>
+				</div>
+				<p class="fontMedium marginTopMedium1">Enter your name and address:</p>
+				<form>
+					<div class="inputCheckout marginTopMedium1 lightColor">
+						<input type="text" placeholder="First Name">
+					</div>
+					<div class="inputCheckout marginTopMedium1 lightColor">
+						<input type="text" placeholder="Last Name">
+					</div>
+					<div class="inputCheckout marginTopMedium1 lightColor">
+						<input type="text" placeholder="Address Line 1">
+					</div>
+					<p class="fontsizeSmall lightColor">We do not ship to P.O. boxes</p>
+					<div class="inputCheckout marginTopSmall lightColor">
+						<input type="text" placeholder="Address Line 2">
+					</div>
+					<div class="inputCheckout marginTopMedium1 lightColor">
+						<input type="text" placeholder="Address Line 3">
+					</div>
+					<div class="forFlex marginTopMedium1 lightColor">
+						<div class="inputCheckout1">
+							<input type="text" placeholder="Postal Code">
+						</div>
+						<div class="inputCheckout1 lightColor">
+							<input type="text" placeholder="Locality">
+						</div>
+					</div>
+					<div class="forFlex marginTopMedium1 lightColor">
+						<div class="inputCheckout1">
+							<input type="text" placeholder="State/Territory">
+						</div>
+						<div class="inputCheckout1 lightColor">
+							<input type="text" placeholder="India">
+						</div>
+					</div>
+					<p class="fontMedium marginTopMedium">What's your contact information?</p>
+					<div class="inputCheckout marginTopMedium1 lightColor">
+						<input type="email" placeholder="Email">
+					</div>
+					<p class="fontsizeSmall lightColor">A confirmation email will be sent after checkout.</p>
+					<div class="inputCheckout marginTopSmall lightColor">
+						<input type="number" placeholder="Phone Number">
+					</div>
+					<p class="fontsizeSmall lightColor">A carrier might contact you to confirm delivery.</p>
+					<p class="fontMedium marginTopMedium1">What's your PAN?</p>
+					<div class="inputCheckout marginTopMedium1  lightColor">
+						<input type="number" placeholder="PAN">
+					</div>
+					<p class="fontsizeSmall marginTopExtraSmall lightColor">Enter your PAN to enable payment with UPI, Net Banking or local card</p>
+					<p class="fontsizeSmall marginTopExtraSmall lightColor">methods</p>
+					<div class="forFlex marginTopMedium1">
+						<div>
+							<input type="checkbox">
+						</div>
+						<div class="checkoutCheckbox lightColor">
+							<p>I have read and consent to eShopWorld processing my information in accordance with the <u>Privacy and Statement</u> and <u>Cookies Policy</u>. eShopWhorld is a trusted Nike partner </p>
+						</div>
+					</div>
+				</form>
+				<div class="marginTopMedium ">
+					<button class="checkoutButton1  lightColor">Continue</button>
+				</div>
+				<div class="paymentDetail marginTopMedium fontMedium">Delivery</div>
+				<div class="paymentDetail marginTopMedium fontMedium lightColor">Shoping</div>
+				<div class="paymentDetail marginTopMedium fontMedium lightColor">Billing</div>
+				<div class="paymentDetail marginTopMedium fontMedium lightColor">Payment</div>
+			</div>
+			<div class="checkoutMainbody2">
+				<p class="fontSizeMedium">Order Summary</p>
+				<div class="forFlex spaceBetween marginTopSmall">
+					<div class="forFlex">
+						<p class="lightColor">Subtotal</p>
+						<div>
+							<img src="assets/question.png" alt="" class="questionImg">
+						</div>
+					</div>
+					<p>₹4,995.00</p>
+				</div>
+				<div class="rateSub forFlex spaceBetween lightColor">
+					<p>Delivery & Shipping</p>
+					<p>₹1,250.00</p>
+				</div>
+				<div class="rateSub forFlex spaceBetween">
+					<p>Total</p>
+					<p>₹6,245.00</p>
+				</div>
+				<p class="marginTopMedium1">
+				<h4>Arrives Wed, 19 Oct - Fri, 4 Nov</h4>
 				</p>
-			</div>
-			<div class="delivery forFlex marginTopMedium1">
-				<img src="assets/box.png" alt="box" class="checkoutHeaderImg4">
-				<p class="marginLeftShort">Deliver It</p>
-			</div>
-			<div class="marginTopMedium1">
-				<div><button class="checkoutButton">Become a member</button></div>
-				<div class="marginTopExtraSmall"><button class="checkoutButton">Login</button></div>
-			</div>
-			<p class="fontMedium marginTopMedium1">Enter your name and address:</p>
-			
-			<form>
-				<div class="inputCheckout marginTopMedium1"><input type="text" value="First Name"></div>
-				<div class="inputCheckout marginTopMedium1"><input type="text" value="Last Name"></div>
-				<div class="inputCheckout marginTopMedium1"><input type="text" value="Address Line 1"></div>
-				<p class="fontsizeSmall">We do not ship to P.O. boxes</p>
-				<div class="inputCheckout marginTopSmall"><input type="text" value="Address Line 2"></div>
-				<div class="inputCheckout marginTopMedium1"><input type="text" value="Address Line 3"></div>
-				<div class="forFlex marginTopMedium1">
-					<div class="inputCheckout1"><input type="text" value="Postal Code"></div>
-					<div class="inputCheckout1"><input type="text" value="Locality"></div>
-				</div>
-				<div class="forFlex marginTopMedium1">
-					<div class="inputCheckout1"><input type="text" value="State/Territory"></div>
-					<div class="inputCheckout1"><input type="text" value="India"></div>
-				</div>
-				<p class="fontMedium marginTopMedium">What's your contact information?</p>
-				<div class="inputCheckout marginTopMedium1"><input type="email" value="Email"></div>
-				<p class="fontsizeSmall">A confirmation email will be sent after checkout.</p>
-				<div class="inputCheckout marginTopSmall"><input type="number" value="Phone Number"></div>
-				<p class="fontsizeSmall">A carrier might contact you to confirm delivery.</p>
-				<p class="fontMedium marginTopMedium1">What's your PAN?</p>
-				<div class="inputCheckout marginTopMedium1"><input type="number" value="PAN"></div>
-				<p class="fontsizeSmall marginTopExtraSmall">Enter your PAN to enable payment with UPI, Net Banking or local card</p>
-				<p class="fontsizeSmall marginTopExtraSmall">methods</p>
-				
-				<div class="forFlex marginTopMedium1">
-					<div><input type="checkbox"></div>
-					<div class="checkoutCheckbox"><p>I have read and consent to eShopWorld processing my information in accordance with the <u>Privacy and Statement</u>
-					and <u>Cookies Policy</u>. eShopWhorld is a trusted Nike partner</p></div>
-					
-				</div>
-			</form>
-			
-			<div class="marginTopMedium"><button class="checkoutButton1">Continue</button></div>
-			<div class="paymentDetail marginTopMedium fontMedium">Delivery</div>
-			<div class="paymentDetail marginTopMedium fontMedium">Shoping</div>
-			<div class="paymentDetail marginTopMedium fontMedium">Billing</div>
-			<div class="paymentDetail marginTopMedium fontMedium">Payment</div>
-		</div>
-		<div class="checkoutMainbody2">
-			<p class="fontSizeMedium">Order Summary</p>
-			<div class="forFlex spaceBetween marginTopSmall">
 				<div class="forFlex">
-					<p>Subtotal</p>
-					<div><img src="assets/question.png" alt="" class="questionImg"></div>
-				</div>
-				<p>₹4,995.00</p>
-			</div>
-			<div class="rateSub forFlex spaceBetween">
-				<p>Delivery & Shipping</p>
-				<p>₹1,250.00</p>
-			</div>
-			<div class="rateSub forFlex spaceBetween">
-				<p>Total</p>
-				<p>₹6,245.00</p>
-			</div>
-			<p class="marginTopMedium1"><h4>Arrives Wed, 19 Oct - Fri, 4 Nov</h4></p>
-			<div class="forFlex">
-				<img src="assets/productimg1.png" alt="selelcted img" class="selectedImg">
-				<div class="checkoutDetail fontsizeSmall">
-				<p> Nike Defy All Day Men's Training Shoe
-				</p><p>Qty 1</p> <p>Size UK 7.5 ₹4,995
-				</p>
+					<img src="assets/productimg1.png" alt="selelcted img" class="selectedImg">
+					<div class="checkoutDetail fontsizeSmall">
+						<p> Nike Defy All Day Men's Training Shoe </p>
+						<p class="lightColor">Qty 1</p>
+						<p class="lightColor">Size UK 7.5 ₹4,995 </p>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 		<!--main body ends-->
+		<footer>
+			<div class="footer2body">
+				<div class="forFlex spaceBetween marginTopExtraSmall alignCenter">
+					<div class="forFlex footerEnd">
+						<img src="assets/map.png" alt="location" class="map">
+						<h4 class="fontSizeExtraSmall colorLightFooter">India </h4>
+						<h4 class="fontSizeExtraSmall colorLightFooter">@2022 Nike,Inc.All Rights Reserved</h4>
+					</div>
+					<div class="forFlex spaceBetween footerEnd2">
+						<h4 class="fontSizeExtraSmall colorLightFooter">Terms of Sale</h4>
+						<h4 class="fontSizeExtraSmall colorLightFooter">Terms of Use</h4>
+						<h4 class="fontSizeExtraSmall colorLightFooter">Nike Privacy Policy</h4>
+					</div>
+					<img src="assets/bank.png" alt="bank">
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

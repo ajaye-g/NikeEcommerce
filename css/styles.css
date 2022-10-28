@@ -147,7 +147,7 @@ a {
 }
 
 .runningGearHead2 img {
-	width: 370px;
+	width: 405px;
 }
 
 .imgPadding {
@@ -208,11 +208,11 @@ a {
 }
 
 .newArrivalImg1 {
-	width: 582px;
+	width: 629px;
 }
 
 .newArrivalImg2 {
-	width: 550px;
+	width: 595px;
 }
 
 .runningGearHead1 {
@@ -387,7 +387,7 @@ select {
 .productslist1 {
 	margin: 36px 40px 0 35px;
 	padding-bottom: 50px;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #80808033;
 
 }
 
@@ -509,6 +509,11 @@ input {
 .subprdcts {
 	width: 75px;
 }
+
+.subprdctsS {
+	width: 75px;
+	border:1px solid black;
+}
 .ukSize {
 	width: 134px;
 	background-color: transparent;
@@ -527,6 +532,7 @@ input {
 	width: 409px;
 	padding: 20px;
 	border-radius: 35px;
+	border: 1px solid #80808036;
 }
 
 .bgcolorDark {
@@ -873,6 +879,10 @@ input {
 	cursor:pointer;
 }
 
+.paddingBottomMedium {
+	padding-bottom:70px;
+}
+
 .brightColorHover:hover {
 	background-color: #c8cccf;
 }
@@ -901,3 +911,6 @@ input {
 	border:1px solid black;
 }
 
+.buttonBorderNone:hover {
+	border:none
+}
